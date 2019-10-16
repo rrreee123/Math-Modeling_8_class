@@ -1,8 +1,10 @@
 a=2
-b=4
-c=1
-for i in range(1,4,1):
-    print(a**i,end=' ')
-
+if a%2==0:
+    print('Yes')
+else:
+    print('No')
+    
+   
+    
     
     
